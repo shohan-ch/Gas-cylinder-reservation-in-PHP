@@ -16,8 +16,8 @@ include "includes/phpmailer/PHPMailerAutoload.php";
     $mail->SMTPAuth   = true;     
     $mail->SMTPSecure ='tls';
     $mail->Port       = 587;                                // Enable SMTP authentication
-    $mail->Username   = 'chowdhuryshohan@gmail.com';                     // SMTP username
-    $mail->Password   = '01712630112';                               // SMTP password
+    $mail->Username   = 'email address';                     // SMTP username
+    $mail->Password   = 'password';                               // SMTP password
                                    
     //Recipients
     $mail->setFrom('chowdhuryshohan@gmail.com',$name);
